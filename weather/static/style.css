@@ -82,7 +82,6 @@ button {
     border-radius: 25px;
     font-size: 20px;
     border: 0;
-    -webkit-appearance: none;
     padding: 0.5em;
 }
 
@@ -101,7 +100,6 @@ button:hover {
     border-radius: 25px;
     font-size: 20px;
     border: 0;
-    -webkit-appearance: none;
     padding: 0.5em;
 }
 
@@ -121,4 +119,16 @@ span {
 
 img {
     height: 70px;
+}
+
+@media only screen and (max-width: 768px) {
+    div {
+        width: 80%;
+    }
+    .input1 {
+        font-size: 20px;
+    }
+    .input2 {
+        font-size: 20px; 
+    }
 }
