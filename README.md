@@ -1,4 +1,4 @@
-# [Weather-App](https://weather-app-bo88.onrender.com/){:target="_blank"}
+# [Weather-App](https://weather-app-bo88.onrender.com/)
 
 A simple web application that provides real-time weather information for a specified city. It utilizes the OpenWeatherMap API to fetch current temperature and weather conditions, presenting them in a user-friendly interface. The frontend is built using HTML and CSS, while the backend is built with Python Flask.
 
@@ -10,9 +10,9 @@ A simple web application that provides real-time weather information for a speci
   
 ## Visit the Website
 
-Explore the app live at [Weather-App](https://weather-app-bo88.onrender.com/){:target="_blank"}.
-Deployed using [Render](https://render.com/){:target="_blank"}.
+Explore the app live at [Weather-App](https://weather-app-bo88.onrender.com/).
+Deployed using [Render](https://render.com/).
 
 ## Dependencies
 Flask: Python web microframework.
-Weather data provider: [OpenWeatherMap API](https://openweathermap.org/api){:target="_blank"}.
+Weather data provider: [OpenWeatherMap API](https://openweathermap.org/api).
