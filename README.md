@@ -10,9 +10,12 @@ A simple web application that provides real-time weather information for a speci
   
 ## Visit the Website
 
-Explore the app live at [Weather-App](https://weather-app-bo88.onrender.com/).
+Explore the app live at [weather-app](https://weather-app-bo88.onrender.com/).
 Deployed using [Render](https://render.com/).
+
+<img width="1463" alt="Weather Homepage" src="https://github.com/kelly-ung/Weather-App/assets/160653037/fe7f5d3c-0fe3-45e8-bcda-180bb0d7f93e">
 
 ## Dependencies
 Flask: Python web microframework.
 Weather data provider: [OpenWeatherMap API](https://openweathermap.org/api).
+
