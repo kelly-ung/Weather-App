@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+
+# Environment Variables
+.env
+.env.local
+
+# IDE/Editor settings
+.vscode/
+.idea/
+
+# Log files
+*.log
+
+# Distribution/Build directories
+dist/
+build/
+*.egg-info/
+
+

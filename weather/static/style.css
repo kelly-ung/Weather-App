@@ -1,0 +1,134 @@
+body {
+    background-image: url("sky.jpeg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    align-content: center;
+    margin: 0;
+    padding: 0;
+    background-attachment: fixed;
+}
+
+ul {
+    list-style-type: none;
+    padding: 1em;
+    margin: 0;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+}
+
+a {
+    color: white; 
+    text-decoration: none;
+    font-family: arial;
+    font-size: 20px;
+}
+
+.title {
+    text-align: center;
+    font-size: 60px;
+    font-family: arial;
+    color: white;
+    font-weight: normal;
+    margin-top: 0.5em;
+}
+.location {
+    text-align: center;
+    font-size: 40px;
+    font-family: arial;
+    color: white;
+    font-weight: normal;
+}
+
+p {
+    text-align: center;
+    font-size: 30px;
+    font-family: arial;
+    color: white;
+    font-weight: normal;
+}
+
+div {
+    margin: auto;
+    width: 60%;
+    background-color: rgb(48, 97, 149);
+    box-shadow: 0 8px 2px 0 rgba(0,0,0,.2);
+    border-radius: 25px;
+    margin-top: 80px;
+    padding-bottom: 1em;
+    opacity: 0.8;
+    overflow: hidden;
+}
+
+.input1 { 
+    font-size: 35px;
+    border: 1px solid gainsboro;
+    border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
+    background-color: gainsboro;
+    padding-left: 20px;
+}
+
+.input2 { 
+    font-size: 35px;
+    border: 1px solid gainsboro;
+    border-bottom-right-radius: 25px;
+    border-top-right-radius: 25px;
+    background-color: gainsboro;
+}
+
+button {
+    color: black;
+    border-radius: 25px;
+    font-size: 20px;
+    border: 0;
+    padding: 0.5em;
+}
+
+button:hover {
+    background-color: #000F;
+    color: white;
+}
+
+.input2:hover {
+    background-color: #000F;
+    color: white;
+}
+
+.input3 { 
+    color: black;
+    border-radius: 25px;
+    font-size: 20px;
+    border: 0;
+    padding: 0.5em;
+}
+
+.input3:hover {
+    background-color: #000F;
+    color: white;
+	content: "k";
+}
+
+span {
+    color: white; 
+    text-decoration: none;
+    font-family: arial;
+    font-size: 20px;
+    float: right;
+}
+
+img {
+    height: 70px;
+}
+
+@media only screen and (max-width: 768px) {
+    div {
+        width: 80%;
+    }
+    .input1 {
+        font-size: 20px;
+    }
+    .input2 {
+        font-size: 20px; 
+    }
+}

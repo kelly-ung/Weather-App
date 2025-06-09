@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather | {{ city }}</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <a href="{{ url_for('home') }}">Weather ⛅︎</a>
+            <span id="datetime"></span>
+            <script>
+            function updateDateTime() {
+                const now = new Date();
+                const currentDateTime = now.toLocaleString();
+                document.querySelector('#datetime').textContent = currentDateTime;
+            }
+            setInterval(updateDateTime, 0);
+            </script>
+        </ul>
+    </nav>
+
+    <div>
+        <p class="location">{{ city }}, {{ country }}</p>
+        <p>{{ main }} 
+            <br>
+            <img src="/static/{{ icon }}">
+        </p> 
+        <p class="title">{{ current_temperature_fahrenheit }} ℉</p>
+        <p><a href="/"><button class="button">Back to Home</button></a></p> 
+    </div>
+</body>
+</html>
