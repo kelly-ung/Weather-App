@@ -13,7 +13,7 @@ A web application that provides real-time weather information for a specified ci
 Explore the app live at [weather-app](https://weather-forecast-view.vercel.app/).
 Deployed using [Vercel](https://vercel.com/).
 
-<img width="1463" alt="Weather Homepage" src="https://github.com/kelly-ung/Weather-App/assets/160653037/fe7f5d3c-0fe3-45e8-bcda-180bb0d7f93e">
+<img width="1463" alt="Weather Homepage" src="https://github.com/user-attachments/assets/9ddae73f-5b70-448c-82f8-71a000195375">
 
 ## Dependencies
 Flask: Python web microframework.
