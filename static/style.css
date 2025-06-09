@@ -95,20 +95,6 @@ button:hover {
     color: white;
 }
 
-.input3 { 
-    color: black;
-    border-radius: 25px;
-    font-size: 20px;
-    border: 0;
-    padding: 0.5em;
-}
-
-.input3:hover {
-    background-color: #000F;
-    color: white;
-	content: "k";
-}
-
 span {
     color: white; 
     text-decoration: none;
