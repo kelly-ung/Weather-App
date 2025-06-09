@@ -13,6 +13,7 @@
             <a href="{{ url_for('home') }}">Weather ⛅︎</a>
             <span id="datetime"></span>
             <script>
+            // update the date and time every second
             function updateDateTime() {
                 const now = new Date();
                 const currentDateTime = now.toLocaleString();
@@ -24,6 +25,7 @@
     </nav>
 
     <div>
+        <!-- display weather information for the city -->
         <p class="location">{{ city }}, {{ country }}</p>
         <p>{{ main }} 
             <br>

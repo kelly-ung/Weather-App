@@ -13,10 +13,11 @@
             <a href="{{ url_for('home') }}">Weather ⛅︎</a>
             <span id="datetime"></span>
             <script>
+            // update the date and time every second
             function updateDateTime() {
                 const now = new Date();
                 const currentDateTime = now.toLocaleString();
-                document.querySelector('#datetime').textContent = currentDateTime;
+                document.querySelector('#datetime').textContent = currentDateTime; 
             }
             setInterval(updateDateTime, 0);
             </script>
@@ -24,6 +25,7 @@
     </nav>
 
     <div>
+        <!-- display error message when no results are found -->
         <p class="location">No Results for <i>{{ city }}</i></p>
         <p><a href="/"><button class="button">Back to Home</button></a></p>
     </div>

@@ -13,6 +13,7 @@
             <a href="{{ url_for('home') }}">Weather ⛅︎</a>
             <span id="datetime"></span>
             <script>
+            // update the date and time every second
             function updateDateTime() {
                 const now = new Date();
                 const currentDateTime = now.toLocaleString();
@@ -25,7 +26,7 @@
 
     <div>
     <h1 class="title">Weather Forecast</h1>
-
+    <!-- form for inputting a city -->
     <form method="post" action=".">
         <p><input class="input1" name="city" placeholder="Enter City.."/>
         <input class="input2" type="submit" class="button" value="⌕"/></p>
